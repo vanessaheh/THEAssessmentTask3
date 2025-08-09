@@ -2,7 +2,7 @@
 ### Phase 1: Identifying and defining
 #### **mind map**
 #### **define your purpose**
-"Gosford high school s
+"Gosford High students are at risk of future gambling habits due to lootbox games"
 #### **requirements outline**
 > **Functional requirements**  
 Data loading:  
@@ -11,7 +11,7 @@ Data analysis:
 Data visualisation:  
 Data reporting:  
 
-> **Non functional requirements**  
+> **Non-functional requirements**  
 Usability:  
 Reliability:
 
@@ -23,7 +23,7 @@ Main flow:
 Postconditions:  
 
 ### Phase 2: Reasearching and Planning
-**Chosen issue: Gosford high students are at risk of future gambling due to lootbox games**
+**Chosen issue: Gosford High students are at risk of future gambling habits due to lootbox games**
 
 > **Research your chosen issue**  
 
