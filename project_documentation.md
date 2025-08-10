@@ -17,15 +17,18 @@ The interface should be able to calculate and display percentages, ratios, and t
 
 **Data visualisation:**
 The system should include data visualisation tools such as tables, pie charts and bar graphs using Pandas and Matplotlib to help users compare data and identify patterns easily.
-Data reporting:
+
+**Data reporting:**
 
 ### **Non-functional requirements**
 
 **Usability:**  
 The user interface will allow users to view data, apply data filters, and update an entry by selecting presented options and subtitles. The README file will define the purpose of the interface, include a usage guide, and list all controls.  
+
 **Reliability:**
 
-**Use case**  
+
+**Use case:**  
 **Actor:** User  
 
 **Goal:**  To access and interact with existing data through the program's user interface.  
@@ -58,8 +61,9 @@ The user interface will allow users to view data, apply data filters, and update
 **Chosen issue: Gosford High students are at risk of future gambling habits due to lootbox games**
 
 **Research your chosen issue**  
+Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to gambling mechanics. The randomised reward system, whether requiring in-game currency or real money, mirrors the thrill of traditional gambling, particularly through variable ratio schedules (where the player is guaranteed a reward after participating in a certain amount of times) and the "near miss effect". 
 
-
+In a recent study, one in five problem gamblers reported that their first first exposure to gambling-like behaviours came through lootbox components in video games, often during adolescence.
 
 **Data dictionary**
 
