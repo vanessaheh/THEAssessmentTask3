@@ -54,7 +54,8 @@ b. Sort/filter data
 ## Phase 2: Researching and Planning
 **Chosen issue: Gosford High students are at risk of future gambling habits due to lootbox games**
 
-**Research your chosen issue**  
+**Research your chosen issue- SEEI**  
+
 Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to gambling mechanics. The randomised reward system, whether requiring in-game currency or real money, mirrors the thrill of traditional gambling, particularly through variable ratio schedules (where the player is guaranteed a reward after participating in a certain amount of times) and the "near miss effect". 
 
 In a recent study, one in five problem gamblers reported that their first first exposure to gambling-like behaviours came through lootbox components in video games, often during adolescence.
@@ -62,9 +63,9 @@ In a recent study, one in five problem gamblers reported that their first first 
 **Data dictionary**
 | FIELD | DATATYPE | FORMAT FOR DISPLAY | DESCRIPTION | EXAMPLE | VALIDATION
 |---|---|---|---|---|---|
-| Population | object | XX...XX| 
-| Row 2, Cell 1 | object | XX...XX |
-| Row 2, Cell 1 | float64| N |
+| Lootbox_players| object | XX...XX| Whether students play lootbox games (yes/no)| yes | Can only be yes or no|
+| Lootbox_spenders| object | XX...XX | Whether students have spent money on lootbox systems in games (yes/no)| no| Can only be yes or no|
+| Potential_spenders| float64| N | How students feel about spending money on lootbox systems in games|3| Can only be 1-5, 1 as in not good at all, 5 as in great
 
 
 ## Phase 3: Producing and Implementing
