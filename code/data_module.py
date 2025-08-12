@@ -9,4 +9,3 @@ def update_data_entry():
     # Use pandas here
     pass
 
-# etc...
