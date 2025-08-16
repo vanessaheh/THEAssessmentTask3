@@ -9,7 +9,7 @@ def print_csv():
          header = None,
          names = ["Timestamp",
                 "Do you play any gacha/lootbox games?",
-                "If yes, have you spent money on systems where the desired ""drop"" is not guaranteed?",
+                'If yes, have you spent money on systems where the desired ""drop"" is not guaranteed?',
                 "How do you feel about spending money on lootbox components in games?"]
          )
     df.drop(columns=['Timestamp'], inplace=True)
@@ -28,8 +28,17 @@ def main_menu():
         choice = int(input("Select an option (1-4): "))
         if choice == 1:
                 print_csv()
+        elif choice == 2:
+                print("yay")
+        elif choice == 3:
+                print("yay!")
+        elif choice == 4:
+                print("Exiting program.")
+                break
+        else:
+                print("Invalid selection. Please choose a number between 1 and 4.")
 
-            
 
 main_menu()
+
 
