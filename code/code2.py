@@ -16,6 +16,7 @@ def data():
          )
     df.drop(columns=['Timestamp'], inplace=True)
     df.dropna(inplace = True)
+    df.drop
     pd.set_option('display.max_rows', 1000)
     return df
 
@@ -24,6 +25,8 @@ def print_csv():
         print(df)
 
 def data_filtering ():
+        df = data()
+
         while True:
                 time.sleep(1)
                 filter_choice = int(input("""
@@ -35,22 +38,17 @@ def data_filtering ():
 Select an option (1-4): """)) 
         
                 if filter_choice == 1:
-                        df = data()
                         time.sleep (1) 
-                        print("\n") 
-                        print(df.loc[:,["| Play lootbox games |"]]) 
-                
+                        print("\n", df.loc[:,["| Play lootbox games |"]])
+                        values = df.loc[:,["| Play lootbox games |"]]
+
                 elif filter_choice == 2: 
-                        df = data() 
                         time.sleep (1) 
-                        print("\n") 
-                        print(df.loc[:,["| Spent money on lootbox systems |"]]) 
-                
+                        print("\n", df.loc[:,["| Spent money on lootbox systems |"]]) 
+
                 elif filter_choice == 3: 
-                        df = data()
                         time.sleep (1) 
-                        print("\n") 
-                        print(df.loc[:,["| Spending feelings (1-bad, 5-great) |"]]) 
+                        print("\n", df.loc[:,["| Spending feelings (1-bad, 5-great) |"]]) 
                 
                 elif filter_choice == 4: 
                         main_menu() 
@@ -86,6 +84,7 @@ Select an option (1-4): """))
         elif choice == 3:
                 data_filtering()
         elif choice == 4:
+                time.sleep (1)
                 print("\nExiting program!!\n")
                 break
         elif choice == 32:
