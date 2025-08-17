@@ -7,24 +7,33 @@
 **Functional requirements:**  
 
 **Data loading:**  
-The system should be able to import CSV files. It must notify the user when errors such as incorrect formatting or missing files.  
+The system should be able to import CSV files. It must notify the user if the requested data does not exist or is not within the available options.
+
+eg. "Invalid selection..."
 
 **Data cleaning:**  
-The system needs to handle missing values by filling gaps with the average or the commonly chosen option when appropriate. It should also allow users to filter through groups of data based on the questions asked in the local survey (eg, "How do you feel about spending money on lootbox games?", where the user can view the number/percentage of people who chose each option). 
+The system needs to handle missing values by removing them from the output. It should also allow users to view each column seperately and display the amount of people who chose each option. 
+
+(eg. "Whether studenst play lootbox games",  
+ yes -> 80  
+ no -> 120)
 
 **Data analysis:**  
-The interface should be able to calculate and display percentages, ratios, and the mean, median and mode of data groups.  
+The interface should be able to count and calculate the percentages of people who chose each option. 
+
+(eg. "Whether studenst play lootbox games"  
+yes -> 80 -> 40% )
 
 **Data visualisation:**  
-The system should include data visualisation tools such as tables, pie charts and bar graphs using Pandas and Matplotlib to help users compare data and identify patterns easily.
+The system should include data visualisation tools such as ______ using Pandas and Matplotlib to help users compare data and identify patterns easily.
 
-**Data reporting:**
-
+**Data reporting:**  
+The data will 
 
 ### **Non-functional requirements**
 
 **Usability:**  
-The user interface will allow users to view data, apply data filters, and update an entry by selecting presented options and subtitles. The README file will define the purpose of the interface, include a usage guide, and list all controls.  
+The interface will allow users to view and filter data by selecting presented options. The README file will define the purpose of the interface, where the data is from, and include a usage guide.  
 
 **Reliability:**
 
@@ -38,17 +47,17 @@ The user interface will allow users to view data, apply data filters, and update
 - The user has access to the system interface  
 
 **Main flow:**
-1. The user enters username
-2. The user opens the program and is presented with the hypothesis
-3. Then, the text-based menu appears
-4. The user selects one of the following options:  
-a. View visualisation  
-b. Sort/filter data
-5. The system performs the requested action and outputs to the user
+1. The user opens the program and is presented with the text-based menu
+2. The user selects one of the following options:  
+a. View dataset  
+b. View visualisation  
+c. Filter data  
+d. Exit
+
+3. The system performs the requested action and outputs to the user
 
 **Postconditions:**
 - user has viewed/interacted with the data
-- updates are SAVED TO THE USERNAME
 - data remains available
 
 ## Phase 2: Researching and Planning
@@ -65,10 +74,7 @@ In a recent study, one in five problem gamblers reported that their first first 
 |---|---|---|---|---|---|
 | Lootbox_players| object | XX...XX| Whether students play lootbox games (yes/no)| yes | Can only be yes or no|
 | Lootbox_spenders| object | XX...XX | Whether students have spent money on lootbox systems in games (yes/no)| no| Can only be yes or no|
-| Potential_spenders| float64| N | How students feel about spending money on lootbox systems in games|3| Can only be 1-5, 1 as in not good at all, 5 as in great
-
-
-## Phase 3: Producing and Implementing
+| Opinion_on_spending| float64| N | How students feel about spending money on lootbox systems in games|3| Can only be 1-5, 1 as in not good at all, 5 as in great
 
 
 ## Phase 4: Testing and evaluating

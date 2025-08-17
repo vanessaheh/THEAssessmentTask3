@@ -16,7 +16,6 @@ def data():
          )
     df.drop(columns=['Timestamp'], inplace=True)
     df.dropna(inplace = True)
-    df.drop
     pd.set_option('display.max_rows', 1000)
     return df
 
@@ -67,7 +66,7 @@ def main_menu():
 |                         |
 |1. View dataset          |
 |2. View visualisation    |
-|3. Search or filter data |
+|3. Filter data |
 |4. Exit                  | 
  -------------------------              
 """)
