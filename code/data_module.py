@@ -1,6 +1,7 @@
 # data_module.py
 import pandas as pd
 import time
+
 def data_updated():
     df = pd.read_csv(
          'code/data.csv',
@@ -38,20 +39,22 @@ Select an option (1-4): """))
         
                 if filter_choice == 1:
                         time.sleep (1) 
-                        print("\n", df.loc[:,["| Play lootbox games |"]])
+                        print("\n" + df.loc[:,["| Play lootbox games |"]])
                         values = df.loc[:,["| Play lootbox games |"]]
+                        print(df["| Play lootbox games |"].value_counts())
 
                 elif filter_choice == 2: 
                         time.sleep (1) 
-                        print("\n", df.loc[:,["| Spent money on lootbox systems |"]]) 
+                        print("\n"+ df.loc[:,["| Spent money on lootbox systems |"]])
+                        print(df["| Spent money on lootbox systems |"].value_counts()) 
 
                 elif filter_choice == 3: 
                         time.sleep (1) 
-                        print("\n", df.loc[:,["| Spending feelings (1-bad, 5-great) |"]]) 
-                
+                        print("\n"+ df.loc[:,["| Spending feelings (1-bad, 5-great) |"]]) 
+                        print(df["| Spending feelings (1-bad, 5-great) |"].value_counts())
+
                 elif filter_choice == 4: 
                         return 
                 
                 else: 
                         print("\nInvalid selection. Please choose a number between 1 and 4.")
-
