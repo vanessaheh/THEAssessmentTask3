@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import time
 
-from data_module import data_filtering, view_dataset
+from data_module import data_filtering, view_dataset, data_visualisation
 
 def main_menu():
     while True:
@@ -28,7 +28,7 @@ Select an option (1-4): """))
                 print("\nWhether students at Gosford High School:\n")
                 view_dataset()
         elif choice == 2:
-                print("yay")
+                data_visualisation()
         elif choice == 3:
                 data_filtering()
         elif choice == 4:
