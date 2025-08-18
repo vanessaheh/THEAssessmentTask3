@@ -3,23 +3,26 @@ import pandas as pd
 import time
 import matplotlib.pyplot as plt
 
+# all my functions for the main code!!
+
 def data_updated():
+    #load dataset from the csv file
     df = pd.read_csv(
          'code/data.csv',
-         on_bad_lines='skip',
-         header = None,
-         names = ["Timestamp",
+         on_bad_lines='skip', #skips broken or 'bad' lines
+         header = None, #not treat the first row of data as column names
+         names = ["Timestamp", #uses these as column names instead
                 "| Play lootbox games |",
                 "| Spent money on lootbox systems |",
                 "| Spending feelings (1-bad, 5-great) |"]
          )
-    df.drop(columns=['Timestamp'], inplace=True)
-    df.dropna(inplace = True)
-    substring = 'yes, no'
+    df.drop(columns=['Timestamp'], inplace=True) #removes the timestamp column
+    df.dropna(inplace = True) #removes rows that have NA (no answer)
+    substring = 'yes, no' #removes rows that have 'yes, no' as an answer 
     filter = df['| Play lootbox games |'].str.contains(substring)
     df = df[~filter]
-    pd.set_option('display.max_rows', 1000)
-    return df
+    pd.set_option('display.max_rows', 1000) #makes sures to diplay all my data
+    return df #so i can use the data later in my program
 
 def view_dataset():
         df = data_updated()
@@ -43,7 +46,7 @@ Select an option (1-4): """))
                         print(df.loc[:,["| Play lootbox games |"]])
                         values = df.loc[:,["| Play lootbox games |"]]
                         
-                        print(df["| Play lootbox games |"].value_counts())
+                        print(df["| Play lootbox games |"].value_counts()) #counts the amount of different values
 
                 elif filter_choice == 2: 
                         time.sleep (1) 
@@ -56,7 +59,7 @@ Select an option (1-4): """))
                         print(df["| Spending feelings (1-bad, 5-great) |"].value_counts())
 
                 elif filter_choice == 4: 
-                        return 
+                        return #exit filter menu
                 
                 else: 
                         print("\nInvalid selection. Please choose a number between 1 and 4.")
@@ -73,22 +76,22 @@ View visualisation of:
 """))
 
         if visualisation_choice == 1:
-                plt.clf()
+                plt.clf() #clears previou visualisation window
                 categories = ['gacha game players', 'gacha game spenders ']
-                values = [73/153 * 100, 53/153 * 100]
+                values = [73/153 * 100, 53/153 * 100] #converted to percentage
 
                 plt.bar(categories, values, color= ['skyblue', 'orange'])
                 plt.title('Gacha game players vs spenders')
                 plt.ylabel('percentage of total students (%)')
 
-                plt.show(block= False)
+                plt.show(block= False) #so you can still run the code without having exited the visualisation window
 
         elif visualisation_choice == 2: 
                 plt.clf()
                 categories = ['1', '2', '3', '4', '5']
                 values = [70, 36, 16, 8, 25]
 
-                plt.bar(categories, values, color= ['skyblue', 'orange', 'yellow', 'blue', '#FC6238'])
+                plt.bar(categories, values, color= ['skyblue', 'orange', 'yellow', 'blue', '#FC6238']) #colours
                 plt.title('Comparison of spending feelings (1-bad, 5-great)')
                 plt.ylabel('Number of students chosen option')
 
