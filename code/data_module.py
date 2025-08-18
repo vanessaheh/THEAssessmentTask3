@@ -55,9 +55,3 @@ Select an option (1-4): """))
                 else: 
                         print("\nInvalid selection. Please choose a number between 1 and 4.")
 
-
-
-        
-
-#error_rows = df[df['| Play lootbox games |'] != 'yes' or ['| Play lootbox games |'] != 'no'].index()
-    #df.drop(error_rows)
