@@ -25,19 +25,19 @@ def main_menu():
  -------------------------              
 """)
         #the number they choose goes through an if elif else statement to display different outcomes
-        choice = int(input("""
+        choice = input("""
 ----------------------
-Select an option (1-4): """))
+Select an option (1-4): """)
 
-        if choice == 1:
+        if choice == '1':
                 time.sleep (1)
                 print("\nWhether students at Gosford High School:\n")
                 view_dataset() #my functions
-        elif choice == 2:
+        elif choice == '2':
                 data_visualisation()
-        elif choice == 3:
+        elif choice == '3':
                 data_filtering()
-        elif choice == 4:
+        elif choice == '4':
                 time.sleep (1)
                 print("\nExiting program!!\n")
                 break #exit the loop and end program
