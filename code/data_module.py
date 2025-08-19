@@ -78,9 +78,9 @@ Select an option (1-3):
 """)
 
         if visualisation_choice == '1':
-                plt.clf() #clears previou visualisation window
+                plt.clf() #clears previous visualisation window
                 categories = ['gacha game players', 'gacha game spenders ']
-                values = [73/153 * 100, 53/153 * 100] #converted to percentage
+                values = [75/155 * 100, 52/155 * 100] #converted to percentage
 
                 plt.bar(categories, values, color= ['skyblue', 'orange'])
                 plt.title('Gacha game players vs spenders')
