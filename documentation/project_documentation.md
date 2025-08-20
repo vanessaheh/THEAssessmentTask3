@@ -65,7 +65,7 @@ d. Exit
 
 ### **Research your chosen issue- SEEI**  
 
-Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to traditional gambling mechanics, particularly in how they normalise gambling behaviour among adolecsents.
+Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to traditional gambling mechanics, particularly in how they normalise gambling behaviour among adolescents.
 By using in game currency or even real money for a chance at a desirable item, lootboxes blur the line between gaming and gambling. Players are exposed to concepts like risk, chance and *variable ratio enforcement* - the same reward used in slot machines- without realising they may be developing unhealthy, addictive behaviours. These mechanics are often paired with bright visuals and exciting sounds, making the system seem fun and harmless instead of potentially harmful.
 
 
@@ -119,6 +119,9 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 ## Phase 4: Testing and evaluating
 
 ### **Analyse and conclude**
+Analyse your findings using at least one SEE-I paragraph. If you spot areas needing more research, make a note of them in your findings. Make sure to provide a conclusion on your hypothesis.
+
+
 
 ### **Peer verification**  
 **ARISA**:  
@@ -126,7 +129,7 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 | PLUS | MINUS |
 |---|---|
 |- The use of time.sleep makes the program feel more structured and controlled|  |
-|- Visually appealing | - The aesthetics are not consistent |
+|- Visually appealing | - Time.sleep is not consistent |
 |- Easy to navigate and there is an exit/back in each set of options|
 |- When I type a number that is not a valid, it reprints the options and an error message | - When I type a word instead of a number, the program crashes (error) 
 |- Dataset is clean and accurate | - Can't search for data (but can filter)|
@@ -135,6 +138,27 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
  
 **IMPLICATION**
 
-While Vanessa's project is overall structured, clear and accessible with several positive aspects, it may need to undergo slight changes to create a more cohesive program. To enhance reliabilty and user experience, input handling should be fixed to prevent crashes from unexpected entries (letters specifically) and the interface could use more consistency. Introducing search functions alongside filtering would also significantly improve how users are able to draw valuable insight from the data analysed and visualised.
+While Vanessa's project is overall structured, clear and accessible with several positive aspects, it may need to undergo slight changes to create a more cohesive program. To enhance reliabilty and user experience, input handling should be fixed to prevent crashes from unexpected entries (letters specifically) and the timing between text could use more consistency (the seconds). Introducing search functions alongside filtering would also significantly improve how users are able to draw valuable insight from the data analysed and visualised.
 
 **Evaluate your project**
+
+Evaluate your system and results in relation to your Requirements Outline:
+
+**Evaluate your system in relation to peer feedback:**
+In response to Arisa's feedback, I have made several adjustments in my code. 
+I fixed the issue with the error messages (removed int from int(input)) and made sure all my time.sleeps were the same. However, I have decided not to implement searching of data, mainly due to the lack of time. While this feature would have improved user experience, I believe the current version still meets its main purpose.
+
+**Evaluate your project in relation to project management:**
+While building my project, my time management could have been better. I found that I spent longer than neccessary on smaller parts, such as the mindmap, which left less time for both the code and project documentation (I ended up doing most of it in the last week). In future assessments, I aim to make a schedule and break parts into smaller tasks while prioritising more important components.
+
+Evaluate your system in in relation to its data and security:
+
+Is the data valid, accurate and timely? 
+
+**Is it unbiased?**  
+The data I have collected from the local survey **may be biased**. As the survey owner, I cannot be certain that all answers given by students are truthful, which could lead to skewed results and inaccurate data. Some peers even reported that they saw others submitting multiple false entries. Despite this, majority would have answered honestly, so this should not significantly affect the overall result. 
+
+Do we need to improve its security – if so, how? 
+
+
+Could the UX be more accessible – if so, how?
