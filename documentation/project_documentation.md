@@ -36,7 +36,8 @@ The user interface will allow users to view data and apply data filters by selec
 **Reliability:**
 To maintain data reliabilty and integrity, the rows with missing values (NA) or contradictory answers (e. "yes", "no") are rremoved, ensuring that only valid data ia analysed and used in the dataset. The displayed results should match the cleaned dataset without bias or error.
 
-**Use case:**  
+### **Use case:**  
+
 **Actor:** User  
 
 **Goal:**  To access and interact with existing data through the program's user interface.  
@@ -60,16 +61,17 @@ d. Exit
 - data remains available
 
 ## Phase 2: Researching and Planning
-**Chosen issue: Gosford High students are at risk of future gambling habits due to lootbox games**
+**Hypothesis: Gosford High students are at risk of future gambling habits due to lootbox games**
 
-**Research your chosen issue- SEEI**  
+### **Research your chosen issue- SEEI**  
 
-Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to traditional gambling mechanics, normalising gambling behaviour especially among adolecents.
+Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to traditional gambling mechanics, particularly in how they normalise gambling behaviour among adolecsents.
+By using in game currency or even real money for a chance at a desirable item, lootboxes blur the line between gaming and gambling. Players are exposed to concepts like risk, chance and *variable ratio enforcement* - the same reward used in slot machines- without realising they may be developing unhealthy, addictive behaviours. These mechanics are often paired with bright visuals and exciting sounds, making the system seem fun and harmless instead of potentially harmful.
 
-By including mechanics such as using game currency or even real money for a chance at a desirable item, lootboxes blur the line between gaming and gambling. Players are introduced to concepts like risk, chance and *variable ratio enforcement*, without realising they may be developing an unhealthy addiction. Furthermore, games that include lootboxes often include bright visuals and exciting sounds, making the system seem fun and harmless. 
 
-For example, a teenager who regularly engages with lootbox games may become normalised to spending money on chance-based systems, reducing the perceived danger of actual gambling and increasing his likelihood of engaging in it later in life.
+For example, a teenager who regularly engages with lootbox games may become desensitised to spending money on chance-based systems, reducing the perceived danger of actual gambling and increasing his likelihood of engaging in it later in life.
 
+As lootboxes become more common in video games, it is crucial to recognise the damaging impact of these systems and protect vulnerable communities from being exploited under the gusie of play.
 
 - In a recent study, a survery of 1000 individuals,  20% self reported that their first exposure to gambling-like behaviours came through lootbox components in video games, often during adolescence.
 
@@ -86,6 +88,12 @@ gambling-related harm (young adults), and 6- endorsed more positive
 attitudes towards gambling (adolescents and young adults)."* 
 
 
+****
+*variable ratio enforcement:*   
+When a win is given after an unpreditable amount of attempts.   
+For example, a player keeps opening lootboxes in hopes to get a rare item. Because the reward could come at any time, they are compelled to keep spending.
+
+
 ***LINKS***  
 https://forms.gle/n8GHvjxE7aqjcFCb6 <-- link of lootbox games form sent to students 
 
@@ -97,7 +105,7 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 
 
 
-**Data dictionary**
+### **Data dictionary**
 | FIELD | DATATYPE | FORMAT FOR DISPLAY | DESCRIPTION | EXAMPLE | VALIDATION
 |---|---|---|---|---|---|
 | Lootbox_players| object | XX...XX| Whether students play lootbox games (yes/no)| yes | Can only be yes or no|
@@ -109,10 +117,24 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 (In main.py, data.csv, data_module.py)
 
 ## Phase 4: Testing and evaluating
-**Test your analysis**
 
-**Analyse and conclude**
+### **Analyse and conclude**
 
-**Peer verification**
+### **Peer verification**  
+**ARISA**:  
+
+| PLUS | MINUS |
+|---|---|
+|- The use of time.sleep makes the program feel more structured and controlled|  |
+|- Visually appealing | - The aesthetics are not consistent |
+|- Easy to navigate and there is an exit/back in each set of options|
+|- When I type a number that is not a valid, it reprints the options and an error message | - When I type a word instead of a number, the program crashes (error) 
+|- Dataset is clean and accurate | - Can't search for data (but can filter)|
+|- README is easy to follow with visuals | 
+ 
+
+**IMPLICATION**
+
+While Vanessa's project is overall structured, clear and accessible with several positive aspects, it may need to undergo slight changes to create a more cohesive program. To enhance reliabilty and user experience, input handling should be fixed to prevent crashes from unexpected entries (letters specifically) and the interface could use more consistency. Introducing search functions alongside filtering would also significantly improve how users are able to draw valuable insight from the data analysed and visualised.
 
 **Evaluate your project**
