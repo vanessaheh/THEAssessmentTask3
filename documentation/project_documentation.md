@@ -108,9 +108,11 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 ### **Data dictionary**
 | FIELD | DATATYPE | FORMAT FOR DISPLAY | DESCRIPTION | EXAMPLE | VALIDATION
 |---|---|---|---|---|---|
-| Lootbox_players| object | XX...XX| Whether students play lootbox games (yes/no)| yes | Can only be yes or no|
-| Lootbox_spenders| object | XX...XX | Whether students have spent money on lootbox systems in games (yes/no)| no| Can only be yes or no|
-| Potential_spenders| float64| N | How students feel about spending money on lootbox systems in games|3| Can only be 1-5, 1 as in not good at all, 5 as in great
+| Play lootbox games| object | XX...XX| Whether students play lootbox games (yes/no)| yes | Can only be yes or no|
+| Spent money on lootbox systems | object | XX...XX | Whether students have spent money on lootbox systems in games (yes/no)| no| Can only be yes or no|
+| Spending feelings (1-bad, 5-great)| float64| N | How students feel about spending money on lootbox systems in games|3| Can only be 1-5, 1 as in not good at all, 5 as in great
+| Timestamp | Datetime64 | DD-MM-YYY HH:MM:SS | Time students filled the form |7/31/2025 11:03:36| Must be in the non-reversible format DD-MM-YYY HH:MM:SS
+
 
 
 ## Phase 3: Producing and Implementing
