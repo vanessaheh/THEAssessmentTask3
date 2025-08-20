@@ -38,7 +38,7 @@ def data_filtering ():
 1. Whether students play lootbox games 
 2. Whether students spent money on lootbox games 
 3. How students feel about spending money on lootbox systems (1-bad, 5-great) 
-4. Exit 
+4. Return to menu 
 Select an option (1-4): """)
         
                 if filter_choice == '1':
@@ -72,7 +72,7 @@ def data_visualisation():
 View visualisation of: 
 1. Gacha game players vs spenders
 2. Comparison of spending feelings (1-bad, 5-great)
-3. Exit
+3. Return to menu
 
 Select an option (1-3):
 """)

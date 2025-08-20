@@ -34,7 +34,7 @@ The system should display the cleaned and filtered datasets directly in the term
 The user interface will allow users to view data and apply data filters by selecting presented options and subtitles. The README file will define the purpose of the interface, include a usage guide, and list all features.  
 
 **Reliability:**
-To maintain data reliabilty and integrity, the rows with missing values (NA) or contradictory answers (e. "yes", "no") are rremoved, ensuring that only valid data ia analysed and used in the dataset. The displayed results should match the cleaned dataset without bias or error.
+To maintain data reliabilty and integrity, the rows with missing values (NA) or contradictory answers (e. "yes", "no") are removed, ensuring that only valid data ia analysed and used in the dataset. The displayed results should match the cleaned dataset without bias or error.
 
 ### **Use case:**  
 
@@ -71,7 +71,7 @@ By using in game currency or even real money for a chance at a desirable item, l
 
 For example, a teenager who regularly engages with lootbox games may become desensitised to spending money on chance-based systems, reducing the perceived danger of actual gambling and increasing his likelihood of engaging in it later in life.
 
-As lootboxes become more common in video games, it is crucial to recognise the damaging impact of these systems and protect vulnerable communities from being exploited under the gusie of play.
+As lootboxes become more common in video games, it is crucial to recognise the damaging impact of these systems and protect vulnerable communities from being exploited under the guise of play.
 
 - In a recent study, a survery of 1000 individuals,  20% self reported that their first exposure to gambling-like behaviours came through lootbox components in video games, often during adolescence.
 
