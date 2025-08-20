@@ -31,7 +31,7 @@ The system should display the cleaned and filtered datasets directly in the term
 ### **Non-functional requirements**
 
 **Usability:**  
-The user interface will allow users to view data and apply data filters by selecting presented options and subtitles. The README file will define the purpose of the interface, include a usage guide, and list all controls.  
+The user interface will allow users to view data and apply data filters by selecting presented options and subtitles. The README file will define the purpose of the interface, include a usage guide, and list all features.  
 
 **Reliability:**
 To maintain data reliabilty and integrity, the rows with missing values (NA) or contradictory answers (e. "yes", "no") are rremoved, ensuring that only valid data ia analysed and used in the dataset. The displayed results should match the cleaned dataset without bias or error.

@@ -103,4 +103,4 @@ Select an option (1-3):
                 return 
                 
         else: 
-                print("\nInvalid selection. Please choose a number between 1 and 4.")
+                print("\nInvalid selection. Please choose a number between 1 and 3.")
