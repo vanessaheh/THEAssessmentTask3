@@ -49,4 +49,5 @@ Displays:
     ![alt text](filter.png)
 ↑ At the bottom of the dataset, it will include the total amount of people who chose each option
 
+4. **Exit + Return to Menu**
 --------

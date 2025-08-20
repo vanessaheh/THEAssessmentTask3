@@ -132,7 +132,7 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 |- Dataset is clean and accurate | - Can't search for data (but can filter)|
 |- README is easy to follow with visuals | 
  
-
+ 
 **IMPLICATION**
 
 While Vanessa's project is overall structured, clear and accessible with several positive aspects, it may need to undergo slight changes to create a more cohesive program. To enhance reliabilty and user experience, input handling should be fixed to prevent crashes from unexpected entries (letters specifically) and the interface could use more consistency. Introducing search functions alongside filtering would also significantly improve how users are able to draw valuable insight from the data analysed and visualised.
