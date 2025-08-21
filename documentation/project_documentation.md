@@ -66,7 +66,7 @@ d. Exit
 ### **Research your chosen issue- SEEI**  
 
 Lootboxes in video games have become increasingly controversial due to their structural and psychological similarities to traditional gambling mechanics, particularly in how they normalise gambling behaviour among adolescents.
-By using in game currency or even real money for a chance at a desirable item, lootboxes blur the line between gaming and gambling. Players are exposed to concepts like risk, chance and *variable ratio enforcement* - the same reward used in slot machines- without realising they may be developing unhealthy, addictive behaviours. These mechanics are often paired with bright visuals and exciting sounds, making the system seem fun and harmless instead of potentially harmful.
+By using in game currency or even real money for a chance at a desirable item, lootboxes blur the line between gaming and gambling. Players are exposed to concepts like risk, chance and *variable ratio enforcement* without realising they may be developing unhealthy, addictive behaviours. These mechanics are often paired with bright visuals and exciting sounds, making the system seem fun and harmless instead of potentially harmful.
 
 
 For example, a teenager who regularly engages with lootbox games may become desensitised to spending money on chance-based systems, reducing the perceived danger of actual gambling and increasing his likelihood of engaging in it later in life.
@@ -120,9 +120,12 @@ https://pubmed.ncbi.nlm.nih.gov/35397261/
 ## Phase 4: Testing and evaluating
 
 ### **Analyse and conclude**
-Analyse your findings using at least one SEE-I paragraph. If you spot areas needing more research, make a note of them in your findings. Make sure to provide a conclusion on your hypothesis.
 
+Lootboxes have become a common feature in modern video games, offering the player a chance at a desired or "rare" item for in-game currency or real money. Despite being marketed as harmless, their structure closely mirrors the fundamental mechanics of traditional gambling, especially in how they encourage repeated spending through unpredictable outcomes. This raises serious concerns about how lootboxes may influence the behaviour of more vulnerable and impressionable members of society- adolescents.
+In my survey, 75 (48%) of 155 students reported playing games that include lootbox mechanics, 53 (71%) of those who had confessed to spending real money on them. These results not only highlight the widespread engagement with lootbox games is, but how frequently these interactions escalate into financial expenditures, especially given how they may not understand the potential risks associate with repeated spending in a randomized system.
+However, when asked how they felt about spending on lootbox mechanics, the majority of responses expressed negativity, with 70 students selected "1" (on a scale from 1- bad to 5-great), while only 25 chose "5". Although different from expected, this serves to underscore a common pattern in gambling. Players are left feeling dissapointed and regretful, yet continue to spend, driven by the hope that further participation will result in a worthwhile reward.
 
+In conclusion, these survey results support the link between lootbox gaming and gambling behaviours. The widespread use, financial expenditures and psychological impacts all point towards what may become future gambling habits, emphasising the need for awareness and regulations among video games like these to prevent long term harm.
 
 ### **Peer verification**  
 **ARISA**:  
@@ -142,16 +145,6 @@ Analyse your findings using at least one SEE-I paragraph. If you spot areas need
 While Vanessa's project is overall structured, clear and accessible with several positive aspects, it may need to undergo slight changes to create a more cohesive program. To enhance reliabilty and user experience, input handling should be fixed to prevent crashes from unexpected entries (letters specifically) and the timing between text could use more consistency (the seconds). Introducing search functions alongside filtering would also significantly improve how users are able to draw valuable insight from the data analysed and visualised.
 
 ### **Evaluate your project**
-
-**Analyse and conclude:**
-Lootboxes have become a common feature in modern video games, offering the player a chance at a desired or "rare" item for in-game currency or real money. Despite being marketed as harmless fun, their structure closely mirrors the fundamental mechanics of traditional gambling, especially in how they encourage repeated spending through unpredictable outcomes. This raises serious concerns about how lootboxes may influence the behaviour of more vulnerable and impressionable members of society- adolescents.
-
-In a survey conducted at Gosford high school, 75 (48%) of 155 students reported playing games that include lootbox mechanics, 53 (71%) of those who had confessed to spending real money on them. These results not only 
-highlight the how widespread engagement with lootbox games is, but how easily it transforms into  
-
-However, when asked how they felt about spending on lootbox mechanics, the majority of responses expressed negativity, with 70 students selected "1" (on a scale from 1- bad to 5-great), while only 25 chose '5'. 
-
-
 
 **Evaluate your system and results in relation to your Requirements Outline:**  
 Overall, the system met most of the goals I set out in the requirements outline, although it is slightly different to what I had imagined. While I had a clear plan at the beginning, some parts had to be adjusted along the way based on what worked best with the data.
