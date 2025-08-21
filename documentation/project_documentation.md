@@ -23,7 +23,7 @@ yes -> 75
 no -> 80
 
 **Data visualisation:**  
-The system should include data visualisation tools such as tables and bar graphs using Pandas and Matplotlib to help users compare data and identify patterns easily. All visualisations must include clear titles, axis labels and visually sppealing colours.
+The system should include data visualisation tools such as tables and bar graphs using Pandas and Matplotlib to help users compare data and identify patterns easily. All visualisations must include clear titles, axis labels and visually appealing colours.
 
 **Data reporting:**
 The system should display the cleaned and filtered datasets directly in the terminal, while visual representations are automatically opened in a new window.
@@ -51,7 +51,7 @@ To maintain data reliabilty and integrity, the rows with missing values (NA) or 
 2. The user selects one of the following options:  
 a. View dataset  
 b. View visualisation  
-c. Filter data  
+c. Filter/search data  
 d. Exit
 
 3. The system performs the requested action and outputs to the user
@@ -87,10 +87,9 @@ gambling problems (adolescents and young adults), 5- suffered more
 gambling-related harm (young adults), and 6- endorsed more positive
 attitudes towards gambling (adolescents and young adults)."* 
 
-
 ****
 *variable ratio enforcement:*   
-When a win is given after an unpreditable amount of attempts.   
+When a win is given after an unpredictable amount of attempts.   
 For example, a player keeps opening lootboxes in hopes to get a rare item. Because the reward could come at any time, they are compelled to keep spending.
 
 
@@ -142,25 +141,44 @@ Analyse your findings using at least one SEE-I paragraph. If you spot areas need
 
 While Vanessa's project is overall structured, clear and accessible with several positive aspects, it may need to undergo slight changes to create a more cohesive program. To enhance reliabilty and user experience, input handling should be fixed to prevent crashes from unexpected entries (letters specifically) and the timing between text could use more consistency (the seconds). Introducing search functions alongside filtering would also significantly improve how users are able to draw valuable insight from the data analysed and visualised.
 
-**Evaluate your project**
+### **Evaluate your project**
 
-Evaluate your system and results in relation to your Requirements Outline:
+**Analyse and conclude:**
+Lootboxes have become a common feature in modern video games, offering the player a chance at a desired or "rare" item for in-game currency or real money. Despite being marketed as harmless fun, their structure closely mirrors the fundamental mechanics of traditional gambling, especially in how they encourage repeated spending through unpredictable outcomes. This raises serious concerns about how lootboxes may influence the behaviour of more vulnerable and impressionable members of society- adolescents.
 
-**Evaluate your system in relation to peer feedback:**
+In a survey conducted at Gosford high school, 75 (48%) of 155 students reported playing games that include lootbox mechanics, 53 (71%) of those who had confessed to spending real money on them. These results not only 
+highlight the how widespread engagement with lootbox games is, but how easily it transforms into  
+
+However, when asked how they felt about spending on lootbox mechanics, the majority of responses expressed negativity, with 70 students selected "1" (on a scale from 1- bad to 5-great), while only 25 chose '5'. 
+
+
+
+**Evaluate your system and results in relation to your Requirements Outline:**  
+Overall, the system met most of the goals I set out in the requirements outline, although it is slightly different to what I had imagined. While I had a clear plan at the beginning, some parts had to be adjusted along the way based on what worked best with the data.
+- I was originally going to fit all my data into **one** visualisation, but I later realised my "spending feelings" column would need to be converted into an average. <--- would affect data analysis
+- I was originally going to add a "search feature", but I didn't know how to make it work and was short on time
+
+Regardless of these changes, I am proud of how my program turned out.
+
+**Evaluate your system in relation to peer feedback:**  
 In response to Arisa's feedback, I have made several adjustments in my code. 
 I fixed the issue with the error messages (removed int from int(input)) and made sure all my time.sleeps were the same. However, I have decided not to implement searching of data, mainly due to the lack of time. While this feature would have improved user experience, I believe the current version still meets its main purpose.
 
-**Evaluate your project in relation to project management:**
+**Evaluate your project in relation to project management:**  
 While building my project, my time management could have been better. I found that I spent longer than neccessary on smaller parts, such as the mindmap, which left less time for both the code and project documentation (I ended up doing most of it in the last week). In future assessments, I aim to make a schedule and break parts into smaller tasks while prioritising more important components.
 
-Evaluate your system in in relation to its data and security:
-
-Is the data valid, accurate and timely? 
+**Is the data valid, accurate and timely?**  
+The data used in this project was collected from a recent survey of students at Gosford high school, making my program timely and relevant. Furthermore, I have removed the incomplete and inconsistent responses in the original dataset to ensure it is valid.  
+However, it **may not be completely accurate**, as it relies on student honesty, which could have led to skewed results and bias. Despite this potential setback, the overall result should not have been affected.
 
 **Is it unbiased?**  
-The data I have collected from the local survey **may be biased**. As the survey owner, I cannot be certain that all answers given by students are truthful, which could lead to skewed results and inaccurate data. Some peers even reported that they saw others submitting multiple false entries. Despite this, majority would have answered honestly, so this should not significantly affect the overall result. 
+The data could be biased if the students taking the survey were influenced by social desirability or misunderstood the questions/wording. 
+Since the survey was only distributed to a small number of students, it may not represent the whole school population. 
 
-Do we need to improve its security – if so, how? 
+**Do we need to improve its security – if so, how?**  
+To improve the security of my program, authentication including as usernames and passwords could be implemented. This would help manage and view who is able to access the data, protecting the privacy of students' responses. Additionally, certain features such as viewing response counts, could be further restricted to selected users.
 
+**Could the UX be more accessible – if so, how?**  
+The user experience could be made more accessible by utilising different colours for visibility, including graphics, allowing alternative input, and adding data searching features to further enhance navigation and usability. I could have also enforced multi-language options or captions would ensure the program is accessible to a broader audience. 
 
-Could the UX be more accessible – if so, how?
+______
